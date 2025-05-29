@@ -1,0 +1,14 @@
+.divider {
+    border-bottom: solid;
+}
+
+.task {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.delete {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <title>Aplicación de listado de tareas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aplicación de listado de tareas</h1>
+    </header>
+    <main>
+        <!-- Formulario para crear tareas-->
+        <form id="createTaskForm">
+            <input id="titulo" type="text" placeholder="Título de la tarea..."></input>
+            <textarea id="descripcion" placeholder="Descripción de la tarea..."></textarea>
+            <button type="submit">Guardar</button>
+        </form>
+        <!---->
+        <div id="tasksContainer">
+        </div>
+    </main>
+</body>
+<script src="static/js/http.client.js"></script>
+<script src="static/js/app.js"></script>
+
+</html>
